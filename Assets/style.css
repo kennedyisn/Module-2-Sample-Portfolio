@@ -1,3 +1,39 @@
 body {
+    font-family: Arial;
+    margin: 0;
     background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    text-align: right;
+    background: #0c4606;
+    color: #d9dcd6;
+}
+.header h1 {
+    text-align: left;
+    font-size: 36px;
+}
+
+/* Makes bullet points dissappear*/
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header div {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
