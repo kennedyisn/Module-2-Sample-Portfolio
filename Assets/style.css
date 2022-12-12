@@ -34,6 +34,38 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: #07350c;
     text-decoration: none;
+    display: inline-block;
+}
+
+.resume {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    position: center; border-radius: 25px;
+}
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    padding: 30px;
+}
+
+.portfolio-photos {
+    max-width: 31.333%;
+    padding: 0 10px;
+    height: 120px;
+}
+
+.portfolio-photos img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer p {
+    display: inline-block;
+    padding: 30px;
+    text-align: left;
+    text-decoration-color: black;
 }
