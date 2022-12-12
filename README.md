@@ -17,13 +17,10 @@ There are no steps needed for installation. Simply click the link and go to the 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+The following screenshot shows the web application's appearance:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![portfolio demo](./assets/images/Screen%20Shot%202022-12-11%20at%207.39.23%20PM.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 ## Credits
 
 ## License
