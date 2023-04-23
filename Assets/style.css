@@ -4,7 +4,7 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+.header, header div {
     padding: 20px;
     text-align: right;
     background: #0c4606;
@@ -27,16 +27,24 @@ body {
 
 .header div {
     padding-top: 10px;
-    margin-right: 20px;
+    margin-right: 0px;
     float: right;
     font-size: 20px;
-    
+    width: 100%;
+    display: flex;
 }
 
 a {
-    color: #07350c;
+    background: #0c4606;
+    color: #d9dcd6;
     text-decoration: none;
     display: inline-block;
+}
+
+.about-me {
+    border: 2px solid black;
+    width: 75%;
+    margin-top: 50px;
 }
 
 .resume {
@@ -46,26 +54,48 @@ a {
     position: center; border-radius: 25px;
 }
 .portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 40px;
-    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
-
-.portfolio-photos {
-    max-width: 31.333%;
-    padding: 0 10px;
-    height: 120px;
-}
-
+  
+/* Set equal size for the portfolio photos */
 .portfolio-photos img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
-.footer p {
+.resume {
+    padding-top: 0px;
+    padding-bottom: 350px;
+}
+
+.resume img {
+    width: 200px;
+    border: 2px solid #333;
+    float: right;
+    margin: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
     display: inline-block;
-    padding: 30px;
-    text-align: left;
-    text-decoration-color: black;
+}
+
+.footer a {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+}
+
+.div a {
+    background: #0c4606;
+    color: #d9dcd6;
 }
